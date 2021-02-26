@@ -8,6 +8,8 @@ import {
 import Home from '../components/home/HomeMain';
 import About from '../components/about/About';
 import Welcome from '../components/welcome/Welcome';
+import './App.css';
+
 // -----------------------------------------------------------------------------------
 
 export default function App() {
