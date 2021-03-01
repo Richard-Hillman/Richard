@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+}
+
+.homeMain {
+    background-image: url('../homeAssests/elijahOdonnell.jpg');
+    background-size: contain;
+}
+
+.divStyle {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.divStyleTop {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin: 50px;
+    width: 40%;
+    border-radius: 20px;
+    border: black 1px solid;
+}
+
+.divStyleBottomThree {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.divStyleRight {
+    width: 20vw;
+    border-radius: 20px;
+    margin:20px;
+    border: black 1px solid;
+}
+
+.divStyleLeft {
+    width: 20vw;
+    border-radius: 20px;
+    margin:20px;
+    border: black 1px solid;
+  }

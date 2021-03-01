@@ -5,12 +5,12 @@ import {
   Route,
   Switch,
 } from 'react-router-dom';
-import Home from '../components/home/HomeMain';
+import Home from '../components/home//homeMain/HomeMain';
 import About from '../components/about/About';
 import Welcome from '../components/welcome/Welcome';
 import './App.css';
 
-// -----------------------------------------------------------------------------------
+// -------------------------------g----------------------------------------------------
 
 export default function App() {
 
@@ -23,7 +23,7 @@ export default function App() {
         <Switch>
 
           <Route
-            path="/welcome"
+            path="/"
             exact
             component = { Welcome } 
           />

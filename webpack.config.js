@@ -49,6 +49,17 @@ module.exports = {
         },
       },
       {
+        test: /\.(mov|mp4)$/,
+        use: [
+          {
+            loader: 'file-loader',
+            options: {
+              name: '[path][name].[ext]'
+            }  
+          }
+        ]
+      },
+      {
         test: /\.css$/,
         use: [
           {
@@ -78,7 +89,7 @@ module.exports = {
         ],
       },
       {
-        test: /\.(jpeg|jpg|png|svg)$/,
+        test: /\.(jpeg|jpg|png|svg|gif|mp4)$/,
         use: {
           loader: 'url-loader',
           options: { limit: 1000 },
