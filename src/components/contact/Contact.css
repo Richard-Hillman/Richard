@@ -6,8 +6,9 @@
 }
 
 .imago { 
-    width: 30vw;
+    width: 500px;
     border-radius: 250px;
+
 }
 
 
@@ -15,7 +16,7 @@
     background-image: url("./contactAssets/snake.png");
     background-size: cover;
     position: fixed;
-    right: 20vw;
+    right: 50vw;
     height: 500px;
     width: 500px;
     padding: 20px;
@@ -45,6 +46,6 @@
 
 .overlap {
     position: fixed;
-    left: 20vw;
+    left: 45vw;
     z-index: 1;
 }
