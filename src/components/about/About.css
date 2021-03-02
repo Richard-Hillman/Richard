@@ -1,0 +1,15 @@
+.sidePanel { 
+    display: flex;
+    justify-content: center;
+    align-content: center;
+  }
+
+  .side {
+      width: 27vw;
+      margin: 40px;
+  }
+
+  .side2 {
+    width: 27vw;
+    margin: 40px;
+}

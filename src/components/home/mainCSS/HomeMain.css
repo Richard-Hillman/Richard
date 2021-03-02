@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+}
+
+.divStyle {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.divStyleTop {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin: 70px;
+    width: 40%;
+    border-radius: 2px;
+    border: black 1px solid;
+    box-shadow: black 0 0 50px;
+}
+
+.divStyleBottomThree {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+
+}
+
+.divStyleRight {
+    width: 20vw;
+    border-radius: 2px;
+    margin:20px;
+    box-shadow: black 0 0 50px;
+    background-color: #00000083;
+}
+
+.divStyleLeft {
+    width: 20vw;
+    border-radius: 2px;
+    margin:20px;
+    box-shadow: black 0 0 50px;
+    background-color: #00000083;
+  }
+
