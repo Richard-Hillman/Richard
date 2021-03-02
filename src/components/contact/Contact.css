@@ -1,0 +1,50 @@
+.spanner {
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.imago { 
+    width: 30vw;
+    border-radius: 250px;
+}
+
+
+.snake {
+    background-image: url("./contactAssets/snake.png");
+    background-size: cover;
+    position: fixed;
+    right: 20vw;
+    height: 500px;
+    width: 500px;
+    padding: 20px;
+    padding-top: 95px;
+    line-height: 5px;
+    text-align: center;
+    border-radius: 250px;
+    font-family: 'Istok Web', sans-serif;
+    font-weight: 300;
+    letter-spacing: 1px;
+    border: black 3px dotted;
+    box-shadow: black 0 0 50px;
+}
+
+.snake a:hover {
+    color: crimson;
+}
+
+.snake a:visited {
+    color: black;
+}
+
+.snake a:link {
+    color: black;
+}
+
+
+.overlap {
+    position: fixed;
+    left: 20vw;
+    z-index: 1;
+}

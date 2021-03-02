@@ -8,7 +8,8 @@ import {
 import Home from '../components/home//homeMain/HomeMain';
 import About from '../components/about/About';
 import Welcome from '../components/welcome/Welcome';
-import './App.css';
+import Contact from '../components/contact/Contact';
+import styles from './App.css';
 
 // -------------------------------g----------------------------------------------------
 
@@ -17,7 +18,7 @@ export default function App() {
   // -----------------------------------------------------------------------------------
 
   return (
-    <>
+    <div className={styles.main}>
       <Router>
 
         <Switch>
@@ -40,6 +41,12 @@ export default function App() {
             component = { About }
           />
 
+          <Route
+            path="/contact"
+            exact
+            component = { Contact }
+          />
+          
           {/* <Route
             path=
             exact
@@ -49,7 +56,7 @@ export default function App() {
         </Switch>
 
       </Router>
-    </>
+    </div>
   );
 }
 

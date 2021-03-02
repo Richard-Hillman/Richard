@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 import React, { Component } from 'react';
-import left1 from '../homeAssests/ProfileLeftTop.jpg';
-import mainMiddle from '../homeAssests/ProfileMiddle.jpg';
+import left1 from '../homeAssests/About.png';
+import mainMiddle from '../homeAssests/Contact.png';
 import styles from '../mainCSS/HomeMain.css';
 
 
@@ -12,11 +12,15 @@ export default class Home extends Component {
         <section className={styles.divStyleBottomThree}>
 
           <span>
-            <img className={styles.divStyleLeft} src={left1} alt="left card" /> 
+            <a href="/about">
+              <img className={styles.divStyleLeft} src={left1} alt="left card" /> 
+            </a>
           </span>
 
           <span>
-            <img className={styles.divStyleRight} src={mainMiddle} alt="main secondary" /> 
+            <a href="/contact">
+              <img className={styles.divStyleRight} src={mainMiddle} alt="main secondary" /> 
+            </a>
           </span>
           
         </section>
