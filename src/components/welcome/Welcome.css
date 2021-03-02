@@ -12,9 +12,13 @@
     box-shadow: black 0 0 50px;
 }
 
+.divStyle1:hover {
+    width:57vw;
+}
+
 .divStyle2 {
     margin: 10px;
-    margin-top: 20px; 
+    margin-top: 8vh; 
     display: flex;
     justify-content: center;
     flex-direction: row;
@@ -26,6 +30,8 @@ img {
     box-shadow: black 0 0 50px;
     border-radius: 5px;
 }
+
+
 
 .btn {
     width: 300px;

@@ -6,6 +6,7 @@
 }
 
 .imago { 
+    margin-top: 100px;
     width: 500px;
     border-radius: 250px;
 
@@ -13,6 +14,7 @@
 
 
 .snake {
+    margin-top: 100px;
     background-image: url("./contactAssets/snake.png");
     background-size: cover;
     position: fixed;

@@ -34,6 +34,11 @@
     background-color: #00000083;
 }
 
+.divStyleRight:hover {
+    width: 22vw;
+    box-shadow: white 0 0 50px;
+}
+
 .divStyleLeft {
     width: 20vw;
     border-radius: 2px;
@@ -42,3 +47,7 @@
     background-color: #00000083;
   }
 
+  .divStyleLeft:hover {
+    width: 22vw;
+    box-shadow: white 0 0 50px;
+}

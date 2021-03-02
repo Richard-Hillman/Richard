@@ -11,7 +11,9 @@ export default class Home extends Component {
         <section className={styles.spanner}>
 
           <span className={styles.overlap}>
-            <img className={styles.imago} src={Icon} alt="Main Icon" /> 
+            <a href="/home">
+              <img className={styles.imago} src={Icon} alt="Main Icon" /> 
+            </a>
           </span>
 
           <span className={styles.snake}>
