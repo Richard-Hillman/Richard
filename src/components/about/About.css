@@ -5,11 +5,18 @@
   }
 
   .side {
-      width: 27vw;
+      width: 24vw;
       margin: 40px;
+      box-shadow: black 0 0 50px;
+  }
+
+  .side:hover {
+    width: 26vw;
+    box-shadow: white 0 0 50px;
   }
 
   .side2 {
-    width: 27vw;
+    width: 24vw;
     margin: 40px;
+    box-shadow: black 0 0 50px;
 }

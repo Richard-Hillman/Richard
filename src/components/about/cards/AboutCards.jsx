@@ -12,7 +12,9 @@ export default class Home extends Component {
         <section>
 
           <span className={styles.sidePanel}>
-            <img className={styles.side} src={roses} alt="right side panel" /> 
+            <a href="/home">
+              <img className={styles.side} src={roses} alt="right side panel" /> 
+            </a>
 
             <img className={styles.side2} src={full} alt="right side panel" /> 
           </span>
