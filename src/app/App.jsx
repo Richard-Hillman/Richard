@@ -11,8 +11,8 @@ import Welcome from '../components/welcome/Welcome';
 import Contact from '../components/contact/Contact';
 import Stack from '../components/stack/Stack';
 import Resume from '../components/resume/Resume';
+import Footer from '../components/footer/Footer';
 import styles from './App.css';
-
 // -------------------------------g----------------------------------------------------
 
 export default function App() {
@@ -69,6 +69,7 @@ export default function App() {
             
         </Switch>
 
+        <Footer />
       </Router>
     </div>
   );

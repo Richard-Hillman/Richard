@@ -23,7 +23,13 @@
     display: flex;
     justify-content: center;
     flex-direction: row;
+}
 
+.divStyleBottomThreetwo {
+    margin-bottom: 5vw;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
 }
 
 .divStyleRight {
