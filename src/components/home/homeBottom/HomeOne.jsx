@@ -27,7 +27,7 @@ export default class Home extends Component {
           
         </section>
 
-        <section className={styles.divStyleBottomThree}>
+        <section className={styles.divStyleBottomThreetwo}>
 
           <span>
             <a href="/stack">
