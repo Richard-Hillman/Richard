@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import About from './cards/AboutCards.css';
+import About from './cards/AboutCards';
 
 export default class Home extends Component {
   render() {
