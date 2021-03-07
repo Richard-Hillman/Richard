@@ -9,6 +9,8 @@ import Home from '../components/home//homeMain/HomeMain';
 import About from '../components/about/About';
 import Welcome from '../components/welcome/Welcome';
 import Contact from '../components/contact/Contact';
+import Stack from '../components/stack/Stack';
+import Resume from '../components/resume/Resume';
 import styles from './App.css';
 
 // -------------------------------g----------------------------------------------------
@@ -45,6 +47,18 @@ export default function App() {
             path="/contact"
             exact
             component = { Contact }
+          />
+          
+          <Route
+            path="/stack"
+            exact
+            component = { Stack }
+          />
+          
+          <Route
+            path="/resume"
+            exact
+            component = { Resume }
           />
           
           {/* <Route

@@ -1,6 +1,6 @@
 /* eslint-disable max-len */
 import React, { Component } from 'react';
-import mainTop from '../homeAssests/HelloWorld1.png';
+import mainTop from '../homeAssests/HelloWorld.jpg';
 import styles from '../mainCSS/HomeMain.css';
 
 export default class Home extends Component {
