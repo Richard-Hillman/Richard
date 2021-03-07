@@ -4,7 +4,7 @@ import styles from './Stack.css';
 
 export default function Stack() {
   return (
-    <div>
+    <div className={styles.stackCenter}>
       <a href="/home">
         <img className={styles.stackDiv} src={stack} alt="rick" />
       </a>

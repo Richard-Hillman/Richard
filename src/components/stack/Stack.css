@@ -1,3 +1,9 @@
+.stackCenter {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
 .stackDiv {
     display: flex;
     flex-direction: row;
