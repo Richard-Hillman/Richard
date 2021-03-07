@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 import React, { Component } from 'react';
 import left1 from '../homeAssests/About.png';
-import mainMiddle from '../homeAssests/Contact.png';
+import mainMiddle from '../homeAssests/Contact.jpg';
 import styles from '../mainCSS/HomeMain.css';
 
 
