@@ -16,7 +16,7 @@ export default function footer() {
         </span>
 
         <span>
-          <a href="https://www.linkedin.com/in/richard-hillman/"><img src={linked} className={styles.picky} /></a>
+          <a href="https://linkedin.com/in/richard-hillman/"><img src={linked} className={styles.picky} /></a>
         </span>
 
         <span>
